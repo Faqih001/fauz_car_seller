@@ -23,6 +23,8 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
 const SearchBar = () => {
   // State for storing the manufacturer and model values
   const [manufacturer, setManuFacturer] = useState("");
+
+  // State for storing the model value
   const [model, setModel] = useState("");
 
   const router = useRouter();
