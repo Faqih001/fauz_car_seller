@@ -7,6 +7,7 @@ import ShowMore from "./ShowMore";
 import SearchBar from "./Searchbar";
 import Hero from "./Hero";
 
+// Export all components
 export {
   Hero,
   CarCard,
