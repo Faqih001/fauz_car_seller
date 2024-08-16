@@ -14,6 +14,7 @@ interface CarCardProps {
 
 // Car card component to display car details and rent price 
 const CarCard = ({ car }: CarCardProps) => {
+  // Destructure car object to get required properties 
   const { city_mpg, year, make, model, transmission, drive } = car;
 
   const [isOpen, setIsOpen] = useState(false);
