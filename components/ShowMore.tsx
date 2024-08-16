@@ -6,6 +6,7 @@ import { ShowMoreProps } from "@types";
 import { updateSearchParams } from "@utils";
 import { CustomButton } from "@components";
 
+// Show more component to render a button to load more items
 const ShowMore = ({ pageNumber, isNext }: ShowMoreProps) => {
   const router = useRouter();
 
