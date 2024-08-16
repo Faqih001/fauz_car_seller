@@ -16,6 +16,7 @@ export default function CustomFilter({ title, options }: CustomFilterProps) {
 
   // update the URL search parameters and navigate to the new URL
   const handleUpdateParams = (e: { title: string; value: string }) => {
+    // Update the search parameters with the selected option
     const newPathName = updateSearchParams(title, e.value.toLowerCase());
 
     router.push(newPathName);
