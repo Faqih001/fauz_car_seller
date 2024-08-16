@@ -19,6 +19,7 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   </button>
 );
 
+// Search bar component to render a search bar with custom styles and functionality
 const SearchBar = () => {
   const [manufacturer, setManuFacturer] = useState("");
   const [model, setModel] = useState("");
