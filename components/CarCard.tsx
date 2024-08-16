@@ -12,6 +12,7 @@ interface CarCardProps {
   car: CarProps;
 }
 
+// Car card component to display car details and rent price 
 const CarCard = ({ car }: CarCardProps) => {
   const { city_mpg, year, make, model, transmission, drive } = car;
 
