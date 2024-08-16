@@ -27,6 +27,7 @@ const SearchBar = () => {
   // State for storing the model value
   const [model, setModel] = useState("");
 
+  // Get the current router instance
   const router = useRouter();
 
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
