@@ -7,6 +7,7 @@ import { SearchManuFacturerProps } from "@types";
 
 // Search manufacturer component to render a search input field for manufacturers
 const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacturerProps) => {
+  // State for storing the search query value 
   const [query, setQuery] = useState("");
 
   const filteredManufacturers =
