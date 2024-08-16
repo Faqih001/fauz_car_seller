@@ -30,6 +30,7 @@ const SearchBar = () => {
   // Get the current router instance
   const router = useRouter();
 
+  // Function to handle the search functionality
   const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
