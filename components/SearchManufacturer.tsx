@@ -10,6 +10,7 @@ const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacture
   // State for storing the search query value 
   const [query, setQuery] = useState("");
 
+  // Filter the manufacturers based on the search query
   const filteredManufacturers =
     query === ""
       ? manufacturers
