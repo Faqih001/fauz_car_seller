@@ -17,6 +17,7 @@ const CarCard = ({ car }: CarCardProps) => {
   // Destructure car object to get required properties 
   const { city_mpg, year, make, model, transmission, drive } = car;
 
+  // State to manage modal visibility 
   const [isOpen, setIsOpen] = useState(false);
 
   const carRent = calculateCarRent(city_mpg, year);
