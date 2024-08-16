@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import { CustomButton } from "@components";
 
+//  Hero component to display the hero section
 const Hero = () => {
   const handleScroll = () => {
     const nextSection = document.getElementById("discover");
