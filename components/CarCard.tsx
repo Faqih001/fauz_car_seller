@@ -20,6 +20,7 @@ const CarCard = ({ car }: CarCardProps) => {
   // State to manage modal visibility 
   const [isOpen, setIsOpen] = useState(false);
 
+  // Calculate car rent price 
   const carRent = calculateCarRent(city_mpg, year);
 
   return (
