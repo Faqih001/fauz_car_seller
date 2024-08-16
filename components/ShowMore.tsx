@@ -11,6 +11,7 @@ const ShowMore = ({ pageNumber, isNext }: ShowMoreProps) => {
   // Get the current router instance
   const router = useRouter();
 
+  // Function to handle the navigation to the next page
   const handleNavigation = () => {
     // Calculate the new limit based on the page number and navigation type
     const newLimit = (pageNumber + 1) * 10;
