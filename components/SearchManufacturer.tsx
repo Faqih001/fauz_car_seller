@@ -5,6 +5,7 @@ import { Combobox, Transition } from "@headlessui/react";
 import { manufacturers } from "@constants";
 import { SearchManuFacturerProps } from "@types";
 
+// Search manufacturer component to render a search input field for manufacturers
 const SearchManufacturer = ({ manufacturer, setManuFacturer }: SearchManuFacturerProps) => {
   const [query, setQuery] = useState("");
 
