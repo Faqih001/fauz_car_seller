@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 
 import SearchManufacturer from "./SearchManufacturer";
 
+// Search button component to render a search button with custom styles and functionality 
 const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
   <button type='submit' className={`-ml-3 z-10 ${otherClasses}`}>
     <Image
