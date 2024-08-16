@@ -41,6 +41,7 @@ const SearchBar = () => {
     updateSearchParams(model.toLowerCase(), manufacturer.toLowerCase());
   };
 
+  // Function to update the URL search parameters and navigate to the new URL
   const updateSearchParams = (model: string, manufacturer: string) => {
     // Create a new URLSearchParams object using the current URL search parameters
     const searchParams = new URLSearchParams(window.location.search);
