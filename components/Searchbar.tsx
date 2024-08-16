@@ -21,6 +21,7 @@ const SearchButton = ({ otherClasses }: { otherClasses: string }) => (
 
 // Search bar component to render a search bar with custom styles and functionality
 const SearchBar = () => {
+  // State for storing the manufacturer and model values
   const [manufacturer, setManuFacturer] = useState("");
   const [model, setModel] = useState("");
 
