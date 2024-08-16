@@ -10,7 +10,7 @@ const Footer = () => (
       <div className='flex flex-col justify-start items-start gap-6'>
         <Image src='/logo.svg' alt='logo' width={118} height={18} className='object-contain' />
         <p className='text-base text-gray-700'>
-          Fauz 2023 <br />
+          Fauz_Automart 2024 <br />
           All Rights Reserved &copy;
         </p>
       </div>
