@@ -10,6 +10,7 @@ import { updateSearchParams } from "@utils";
 
 // Custom filter component to render a filter with custom styles
 export default function CustomFilter({ title, options }: CustomFilterProps) {
+  // Get the current router instance 
   const router = useRouter();
   const [selected, setSelected] = useState(options[0]); // State for storing the selected option
 
