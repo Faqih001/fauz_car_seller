@@ -8,6 +8,7 @@ import { CustomButton } from "@components";
 
 // Show more component to render a button to load more items
 const ShowMore = ({ pageNumber, isNext }: ShowMoreProps) => {
+  // Get the current router instance
   const router = useRouter();
 
   const handleNavigation = () => {
